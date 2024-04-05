@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+</head>
+<body>
+  <h2>BEM VINDO AO MEU SITE!!!</h2>
+  <p><a href="dynamic_img.html" rel="next" title="Imagens dinâmicas">Imagens dinâmicas</a></p>
+  <p><a href="aula11.html" rel="next" title="Arquivos para download">Downloads</a></p>
+  
+  <br>
+
+  <picture>
+    <source media="(min-width: 1000px)" srcset="files/louco_e_sonhador_G.jpeg" type="image/jpeg">
+    <source media="(min-width: 700px)" srcset="files/louco_e_sonhador_M.jpeg" type="image/jpeg">
+    <img src="files/louco_e_sonhador_P.jpeg" type="image/jpeg" alt="Imagem Flexivel">
+  </picture>
+
+  <br>
+
+  <audio preload="metadata" controls loop>
+    <source src="files/loucoESonhador.m4a">
+  </audio>
+</body>
+</html>
