@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+
+<body>
+    <h1>Listas ordenadas e não ordenadas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <p>A tag &lt;ol&gt; (OL - Ordened List) possui o parâmetro type para configurar o tipo de marcador e o parâmetro
+        start para determinar o início da contagem</p>
+    <h3>Possíveis valores para o parâmetro type:</h3>
+    <ol type="1" start="3">
+        <li>'1' - Valor padrão, lista numerada (1, 2, 3, 4, 5...)</li>
+        <li>'A' - Listas alfabéticas em maiúsculas (A, B, C, D, E...)</li>
+        <li>'a' - Listas alfabéticas em minúsculas (a, b, c, d, e...)</li>
+        <li>'I' - Listas com algarismos romanos em maiúsculas (I, II, III, IV, V...)</li>
+        <li>'i' - Listas com algarismos romanos em minúsculas (i, ii, iii, iv, v...)</li>
+    </ol>
+
+    <h2>Listas Não ordenadas</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <p>A tag &lt;ul&gt; (UL - Unordered List) tambêm possui o parâmetro type</p>
+    <h3>Possíveis valores para o parâmetro type (ul):</h3>
+    <ul type="disc">
+        <li>disc - &lt;valor default&gt; Uma bola preta preenchida com a cor preta</li>
+        <li>circle - Um círculo com a borda preta sem preenchimento.</li>
+        <li>square - Um pequeno quadrado totalmente preenchido com a cor preta</li>
+    </ul>
+    <p>É possível criar sublistas dentro de outras listas:</p>
+    <ul type="circle">
+        <li>Item 1</li>
+        <ol type="i">
+            <li>Item a</li>
+            <li>Item b</li>
+        </ol>
+        <li>Item 2</li>
+        <ul type="square">
+            <li>Item a</li>
+            <li>Item b</li>
+            <ol type="A">
+                <li>Item a</li>
+                <li>Item b</li>
+            </ol>
+        </ul>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+</body>
+
+</html>
