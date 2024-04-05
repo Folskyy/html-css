@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ligações/Links</title>
+</head>
+
+<body>
+    <a href="../ex010/index.html" rel="prev">home</a>
+    <h1>Vamos criar um link:</h1>
+    <a href="https://help.unicef.org/pmax-mudancas-climaticas?language=pt-br&gad_source=1&gclid=CjwKCAiA_aGuBhACEiwAly57MR19bD5nDJT-h8yb5cYLJWh4xZQJvmODD-IuSpI-5h0XEnFwIJQI5hoC6M0QAvD_BwE" rel="external" target="_blank">Aumente seu pênis em 15cm :)</a>
+    <br>
+    <img src="beringela_rotatoria_300x300.gif" alt="Beringela rotacionando">
+    <p>Diferente da página anterior, o link acima é um link externo.<br>
+        Deve-se colocar o 'https://' para não ser redirecionado
+        para um endereço relativo (endereçoDoArquivo/linkInserido)</p>
+    <h3>Parâmetros&lt;a&gt;:</h3>
+    <ul>
+        <li>href: Referência Hipertexto</li>
+        <li>hreflang: Idioma principal do site referenciado</li>
+        <li>target: Controla onde o site vai abrir</li>
+        <ul type="circle">
+            <li>_self: (default) Abre o link na janela atual</li>
+            <li>_blank: Vai abrir o link em uma nova janela em branco</li>
+            <li>_top: Vai desfazer todos os frames e abrir o destino no navegador completo</li>
+            <li>_parent: Abre o link no quadro pai do quadro onde o link foi clicado se houver um</li>
+        </ul>
+        <li>rel: Indica qual é a natureza do destino</li>
+        <ul type="circle">
+            <li>next: Indica que o link é para a próxima parte do documento atual</li>
+            <li>prev: Indica que o link é para a parte anterior do documento atual</li>
+            <li>author: Indica que é um link para o site do autor do artigo atual</li>
+            <li>external: Indica que é um link para outro site que não faz parte do site</li>
+            <li>nofollow: Indica que é um link para um site não endossado, como um link pago</li>
+        </ul>
+        <li>download: O valor é o nome do arquivo a ser baixado. Mas pra isso é preciso que o atributo type esteja
+            configurado para indicar o tipo do arquivo:</li>
+        <ul type="circle">
+            <li>application/zip</li>
+            <li>text/html</li>
+            <li>text/css</li>
+            <li>text/javascript</li>
+            <li>video/mp4</li>
+            <li>video/H264</li>
+            <li>video/JPEG</li>
+            <li>audio/aac</li>
+            <li>audio/mpeg</li>
+            <li>font/ttf</li>
+            <li>image/jpeg</li>
+            <li>image/png</li>
+        </ul>
+    </ul>
+    <p>
+        Clique <a href="apts.md" download="apts.md" type="text/md">aqui</a> para efetuar o download de um arquivo md.
+    </p>
+</body>
+
+</html>
