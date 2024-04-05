@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <p><a href="index.html" title="Voltar para a home" rel="prev">home</a></p>
+    <p>
+        O site precisa se adaptar a diferentes dispositivos ou então apresentará lentidão e 
+      imagens/recursos visuais fora de escala. <br>
+        Ao usar a tag &lt;img&gt; aninhamos-a na tag &lt;picture&gt; e dentro dela utilizamos
+       a tag &lt;source&gt; onde destacam-se 3 parâmetros:
+        <ul>
+            <li>type: indica o mediatype da imagem usada</li>
+            <li>srcset: configura o nome da imagem que será carregada quando o tamanho indicado for atingido</li>
+            <li>media: indica o tamanho máximo a ser considerado para carregar a imagem indicada no srcset</li>
+        </ul>
+    Analise como a imagem abaixo se adapta ao alterar o tamanho da janela:
+    </p>
+    <picture>
+        <source media="(min-width: 1000px)" srcset="files/foto_g.png" type="image/jpeg" alt="imagem com fundo vermelho com a letra G">
+        <source media="(min-width: 700px)" srcset="files/foto_m.png" type="image/jpeg" alt="imagem com fundo amarelo com a letra M">
+        <img src="files/foto_p.png" alt="imagem com fundo verde com a letra P">
+    </picture>
+    <br>
+</body>
+</html>
