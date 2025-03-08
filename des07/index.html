@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagem Flexível</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="images/x-icon">
+</head>
+<body>
+  <h1>Imagem Flexível</h1>
+  <p>
+    Você está vendo a imagem completa? Experimente ampliar a largura da janela para aproveitar a melhor experiência.
+  </p>
+  <picture>
+    <source media="(min-width: 1000px)" srcset="images/paisagem-g.png" alt="Mulher em paisagem no litoral">
+    <source media="(min-width: 700px)" srcset="images/paisagem-m.png" alt="Mulher em paisagem no litoral">
+    <img srcset="images/paisagem-p.png" alt="Mulher em paisagem no litoral">
+  </picture>
+</body>
+</html>
