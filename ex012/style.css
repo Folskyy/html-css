@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+  background-color: black;
+  background-image: linear-gradient(to bottom, black, black, blueviolet);
+  min-height: 100vh;
+  color: whitesmoke;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 12pt;
+}
+h1 {
+  color: grey;
+}
+a {
+  color: blueviolet;
+}
+p {
+  color: gray;
+  font-family: monospace;
+}
